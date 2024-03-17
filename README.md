@@ -4,14 +4,28 @@ Project 3 of Back End Development through FreeCodeCamp curriculum
 
 ## Function
 
-- Accepts a date string (DD Month YYYY), date (YYYY-MM-DD) or unix timestamp and provides a JSON object with unix and UTC properties
-- A blank query returns the current date
+- Input form accepts a valid URL checked via DNS lookup
+- If a valid URL is submitted, the original URL and a new URL are submitted to a MongoDB
+- A JSON object is returned with the above information
+- Inputting the new URL into the API redirects to the original URL
 
 ## How to use 
 
-```
+### Shorten a URL
+
+- Input original URL to form
+
+### Retrieve an original URL
+
+- Input new URL as below:
 
 ```
+[project_URL]/api/shorturl/<new_URL>
+```
+
+## Further development
+
+1) Add functionality to display recently submitted URLs, with new URL alongside
 
 ## Learning
 
